@@ -1,0 +1,11 @@
+footer {
+    border-top: 3px solid #6de9fd;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-text {
+    color:#6de9fd;
+}

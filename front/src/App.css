@@ -1,0 +1,121 @@
+body {
+  height: 100vh;
+}
+
+nav {
+  color: #6de9fd;
+  font-family: 'Segoe UI';
+  width: 100%;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-container {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.btn-container {
+  margin-right: 10px;
+}
+.btn-history{
+  background-color: #161925;
+  color:#6de9fd;
+  border: 2px solid #6de9fd;
+  border-radius: 15px;
+  padding: 1rem;
+  transition: 1s;
+  font-size: 16px;
+  font-weight:bold;
+}
+
+.weather-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  min-height: 80vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+
+
+input.MuiInputBase-input {
+  color: #6de9fd;
+  width: 350px;
+  font-weight: 700;
+
+}
+
+label.MuiInputLabel-root {
+  color: #6de9fd;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+button.btn-buscar {
+  background-color: #6de9fd;
+  border-radius: 15px;
+  color: #161925;
+  font-size: 1rem;
+  font-weight: 800;
+  margin-top: 1rem;
+  transition: 1s;
+}
+
+button.btn-buscar:hover, button.btn-history:hover {
+  color: #6de9fd;
+  background-color: #161925;
+  border: 2px solid #6de9fd;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+fieldset.MuiOutlinedInput-notchedOutline {
+  border-color: #6de9fd;
+  color: white;
+  background-color: transparent;
+}
+
+.card {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #6de9fd;
+  border-radius: 20px;
+  height: 400px;
+  width: 350px;
+  margin-top: 15px;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+img.MuiBox-root.css-13o6z6d {
+  width: 180px;
+
+}
+
+th.MuiTableCell-root,
+span.MuiButtonBase-root.MuiTableSortLabel-root {
+  background-color: #161925;
+  color: #6de9fd;
+}
+
+svg.css-1vweko9-MuiSvgIcon-root-MuiTableSortLabel-icon {
+  fill: #6de9fd;
+}
+
+td.MuiTableCell-body {
+  background-color: #161925;
+  color: white;
+}
